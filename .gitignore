@@ -2,7 +2,12 @@
 
 *.tfstate
 *.tfstate.*
-.terraform
+
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform provider directories
+.terraform/providers/
 
 crash.log
 
